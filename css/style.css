@@ -9,22 +9,32 @@ body{
     width: 1080px;
     margin: 0 auto;
 }
-header{
-    background: #000;
-}
+
 .header-background{
     background-color: red;
 }
+
+.main-background{
+    background-color: aquamarine;
+}
+
 .flex-container{
     display: flex;
 }
 
+/* header */
 .menu{
     height: 50px;
     justify-content: space-between;
 }
-.icon{
+.img{
+    width: 30px;
     background-color: green;
+}
+
+.buttons{
+    background-color: black;
+    width: 30px;
 }
 .nav-bar{
     min-width: 600px;
@@ -34,11 +44,57 @@ header{
 }
 
 .sign-in{
+    width: 30px;
     background-color: blueviolet;
 }
 
-.presentation{
-    height: 300px;
+.centered{
     text-align: center;
     padding: 0 20%;
+}
+
+h1{
+    width: 20px;
+    height: 10px;
+}
+
+.main-paragraph{
+    width: 100px;
+    height: auto;
+}
+
+/* main */
+.segment{
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    padding: 30px;
+}
+
+.segment:nth-child(2){
+    background-color: orange;
+    flex-direction: row-reverse;
+}
+
+.main-paragraph, .main-image{
+    width: 50%;
+    flex-grow: 0;
+    padding: 50px;
+}
+
+.main-image{
+    background-color: black;
+}
+
+.main-paragraph{
+    background-color: chartreuse;
+}
+
+.vertical-segment{
+    flex-direction: column;
+    background-color: yellow;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
 }
