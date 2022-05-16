@@ -6,6 +6,33 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
+}
+header{
+    background: #000;
+}
+.header-background{
+    background-color: red;
+}
+.flex-container{
+    display: flex;
+}
+
+.menu{
+    height: 50px;
+    justify-content: space-between;
+}
+.icon{
+    background-color: green;
+}
+.buttons-bar{
+    min-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.sign-in{
+    background-color: blueviolet;
 }
